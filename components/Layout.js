@@ -7,8 +7,8 @@ export default function Layout({ children, titlePage }) {
     <div>
       <Head>
         <meta name="description" content="tailiwndcss slicing nextjs" />
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <title>{titlePage}</title>
       </Head>
       <Navbar />
