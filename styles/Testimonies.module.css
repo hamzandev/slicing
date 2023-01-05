@@ -1,0 +1,5 @@
+.bgImage {
+  background-image: url("../public/assets/partikel.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
