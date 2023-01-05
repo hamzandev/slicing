@@ -8,7 +8,7 @@ import FormSection from "../components/FormSection";
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout titlePage="Home">
       <Banner />
       <Feature />
       <Spesialis />

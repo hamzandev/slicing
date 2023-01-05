@@ -9,7 +9,7 @@ import four from "../../public/img/3.jpg";
 
 export default function PostDetail() {
   return (
-    <Layout>
+    <Layout titlePage={"Detail Post"}>
       <div className="detail-post container mx-auto lg:px-20 px-5">
         <div className="md:flex grid gap-10 my-20 font-poppins">
           <div className="content flex flex-col gap-3" style={{ flex: 5 }}>

@@ -15,7 +15,7 @@ export default function Blog() {
   const router = useRouter();
 
   return (
-    <Layout>
+    <Layout titlePage={"Blog Posts"}>
       <div className={`blog ${style.bgImage} pt-20 min-h-[50vh]`}>
         <h3 className="text-4xl font-poppins text-center">Blog</h3>
         <h4 className="text-xl text-center mt-2">{`Home${router.asPath}`}</h4>
