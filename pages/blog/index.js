@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useRouter } from "next/router";
 import Layout from "../../components/Layout";
 import style from "../../styles/Blog.module.css";
@@ -8,7 +7,6 @@ import two from "../../public/img/2.jpg";
 import three from "../../public/img/3.jpg";
 import four from "../../public/img/4.jpg";
 import five from "../../public/img/5.jpg";
-import Link from "next/link";
 import PostCard from "../../components/PostCard";
 
 export default function Blog() {
