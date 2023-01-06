@@ -9,7 +9,7 @@ export default function InputWithLabel({ children, type = "text", ...props }) {
         // placeholder="johndoe@gmail.com"
         // id="email"
         {...props}
-        className="border-b-2 py-3 focus:border-primary text-primary focus:outline-none"
+        className="border-b-2 py-3 focus:border-primary text-primary focus:outline-none w-full"
       />
     </div>
   );
