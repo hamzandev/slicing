@@ -11,7 +11,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="scroll-smooth">
+      <body className="scroll-smooth" style={{ scrollBehavior: "smooth" }}>
         <Main />
         <NextScript />
       </body>
