@@ -7,11 +7,11 @@ export default function FormSection() {
       id="contact"
       className="message-section bg-gradient-to-b from-blue-100/80 to-blue-50"
     >
-      <div className={`py-10 px-8 ${style.bgImage}`}>
+      <div className={`py-10 md:px-8 px-5 ${style.bgImage}`}>
         <h3 className="text-4xl font-poppins text-center lg:w-1/3 lg:p-0 px-3 mx-auto mb-10 mt-5 text-titleText">
           Facing Problem? Lets Get In Touch Now
         </h3>
-        <form className="lg:w-8/12 mb-10 font-poppins inset-0 p-14 mx-auto bg-white shadow-2xl rounded-xl flex flex-col gap-y-8">
+        <form className="lg:w-8/12 mb-10 font-poppins inset-0 md:p-14 p-8 mx-auto bg-white shadow-2xl rounded-xl flex flex-col gap-y-8">
           <div className="name-section flex lg:flex-row flex-col gap-5">
             <InputWithLabel type="text" id="first-name" placeholder="John">
               First Name
@@ -65,7 +65,7 @@ export default function FormSection() {
           </div>
           <button
             type="submit"
-            className="px-8 w-max py-3 rounded-md text-gray-100 bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600"
+            className="px-8 md:w-max w-full py-3 rounded-md text-gray-100 bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600"
           >
             Submit
           </button>

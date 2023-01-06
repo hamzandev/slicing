@@ -17,7 +17,7 @@ export default function Blog() {
       <div className={`blog ${style.bgImage} pt-20 min-h-[50vh]`}>
         <h3 className="text-4xl font-poppins text-center">Blog</h3>
         <h4 className="text-xl text-center mt-2">{`Home${router.asPath}`}</h4>
-        <div className="container mx-auto px-16 my-10 py-10">
+        <div className="container mx-auto md:px-16 px-5 my-10 py-10">
           <div className="grid z-10 gap-8 lg:grid-cols-3 grid-cols-1">
             <PostCard
               image={one}
