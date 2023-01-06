@@ -32,7 +32,7 @@ export default function Navbar() {
           <NavLink to="#about">About</NavLink>
           <NavLink to="#products">Products</NavLink>
           <NavLink to="#features">Features</NavLink>
-          <NavLink to="/blog">Blog</NavLink>
+          <Link to="/blog">Blog</Link>
         </div>
         <div
           className={`flex lg:flex-row flex-col gap-3 ${
@@ -57,7 +57,7 @@ export default function Navbar() {
           <NavLink to="#about">About</NavLink>
           <NavLink to="#products">Products</NavLink>
           <NavLink to="#features">Features</NavLink>
-          <NavLink to="/blog">Blog</NavLink>
+          <Link to="/blog">Blog</Link>
         </div>
         <div className={`lg:flex hidden lg:flex-row flex-col gap-3 `}>
           <form className="flex items-center">
